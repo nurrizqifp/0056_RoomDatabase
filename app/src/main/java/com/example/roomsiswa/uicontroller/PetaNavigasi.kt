@@ -16,6 +16,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.roomsiswa.R
+import com.example.roomsiswa.view.DestinasiEntry
+import com.example.roomsiswa.view.DestinasiHome
 import com.example.roomsiswa.view.EntrySiswaScreen
 import com.example.roomsiswa.view.HomeScreen
 
