@@ -9,16 +9,13 @@ import com.example.roomsiswa.AplikasiSiswa
 import com.example.roomsiswa.viewmodel.DetailViewModel
 import com.example.roomsiswa.viewmodel.EditViewModel
 import com.example.roomsiswa.viewmodel.EntryViewModel
+import com.example.roomsiswa.viewmodel.HomeViewModel
 
 object PenyediaViewModel {
     val Factory = viewModelFactory {
 
         initializer {
-            _root_ide_package_.com.example.roomsiswa.viewmodel.HomeViewModel(aplikasiSiswa().container.repositoriSiswa)
-        }
-
-        initializer {
-            _root_ide_package_.com.example.roomsiswa.viewmodel.EntryViewModel(aplikasiSiswa().container.repositoriSiswa)
+            HomeViewModel(aplikasiSiswa().container.repositoriSiswa)
         }
 
         initializer {
@@ -26,13 +23,17 @@ object PenyediaViewModel {
         }
 
         initializer {
-            DetailViewModel(this.createSavedStateHandle(),
-                aplikasiSiswa().container.repositoriSiswa)
+            DetailViewModel(
+                this.createSavedStateHandle(),
+                aplikasiSiswa().container.repositoriSiswa
+            )
         }
 
         initializer {
-            EditViewModel(this.createSavedStateHandle(),
-                aplikasiSiswa().container.repositoriSiswa)
+            EditViewModel(
+                this.createSavedStateHandle(),
+                aplikasiSiswa().container.repositoriSiswa
+            )
         }
     }
 }

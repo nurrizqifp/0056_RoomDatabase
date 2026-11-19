@@ -10,4 +10,9 @@
     <string name="deskripsi_no_item">Belum ada data siswa</string>
     <string name="edit_siswa">Edit Siswa</string>
     <string name="detail_siswa">Detail Siswa</string>
+    <string name="delete">Hapus</string>
+    <string name="attention">Perhatian</string>
+    <string name="tanya">Apakah Anda yakin ingin menghapus data ini?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
 </resources>

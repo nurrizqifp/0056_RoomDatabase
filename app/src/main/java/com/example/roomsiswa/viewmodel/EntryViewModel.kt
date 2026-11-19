@@ -47,12 +47,8 @@ data class DetailSiswa(
     val id: Int = 0,
     val nama: String = "",
     val alamat: String = "",
-    val telpon: String = "",
-) {
-    companion object {
-        val itemIdArg: Any
-    }
-}
+    val telpon: String = ""
+)
 
 /* Fungsi untuk mengkonversi data input ke data dalam tabel sesuai jenis datanya*/
 fun DetailSiswa.toSiswa(): Siswa = Siswa(
