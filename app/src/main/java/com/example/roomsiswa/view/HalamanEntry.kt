@@ -24,13 +24,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.roomsiswa.R
-import com.example.roomsiswa.uicontroller.DestinasiNavigasi
-import com.example.roomsiswa.uicontroller.SiswaTopAppBar
+import com.example.roomsiswa.view.route.DestinasiNavigasi
+import com.example.roomsiswa.view.uicontroller.SiswaTopAppBar
 import com.example.roomsiswa.viewmodel.DetailSiswa
 import com.example.roomsiswa.viewmodel.EntryViewModel
-import com.example.roomsiswa.viewmodel.PenyediaViewModel
+import com.example.roomsiswa.viewmodel.provider.PenyediaViewModel
 import com.example.roomsiswa.viewmodel.UIStateSiswa
-import com.example.roomsiswa.viewmodel.toSiswa
 import kotlinx.coroutines.launch
 
 object DestinasiEntry : DestinasiNavigasi {

@@ -34,10 +34,10 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.roomsiswa.R
 import com.example.roomsiswa.room.Siswa
-import com.example.roomsiswa.uicontroller.DestinasiNavigasi
-import com.example.roomsiswa.uicontroller.SiswaTopAppBar
+import com.example.roomsiswa.view.route.DestinasiNavigasi
+import com.example.roomsiswa.view.uicontroller.SiswaTopAppBar
 import com.example.roomsiswa.viewmodel.HomeViewModel
-import com.example.roomsiswa.viewmodel.PenyediaViewModel
+import com.example.roomsiswa.viewmodel.provider.PenyediaViewModel
 
 object DestinasiHome : DestinasiNavigasi {
     override val route = "home"
