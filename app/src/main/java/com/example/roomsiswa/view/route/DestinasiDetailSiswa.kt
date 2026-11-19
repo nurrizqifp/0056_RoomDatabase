@@ -2,7 +2,7 @@ package com.example.roomsiswa.view.route
 
 import com.example.roomsiswa.R
 
-object DestinasiEditSiswa : DestinasiNavigasi {
+object DestinasiDetailSiswa : DestinasiNavigasi {
     override val route = "detail_siswa"
 
     override val titleRes = R.string.detail_siswa
