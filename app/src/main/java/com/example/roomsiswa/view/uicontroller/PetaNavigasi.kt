@@ -1,4 +1,4 @@
-package com.example.roomsiswa.uicontroller
+package com.example.roomsiswa.view.uicontroller
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
