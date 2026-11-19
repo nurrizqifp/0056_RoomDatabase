@@ -1,4 +1,4 @@
-package com.example.roomsiswa.uicontroller
+package com.example.roomsiswa.view.route
 
 interface DestinasiNavigasi {
     /**
